@@ -1,0 +1,7 @@
+title: My DJ and Blog Site
+description: A professional site with a touch of whimsy
+markdown: kramdown
+theme: minima
+plugins: [jekyll-feed]
+permalink: /:title/
+

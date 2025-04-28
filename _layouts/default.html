@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+  
+</head>
+<body>
+<nav>
+  <a href="/">Home</a>
+  <a href="/mixes/">Mixes</a>
+  <a href="/projects/">Projects</a>
+  <a href="/blog/">Blog</a>
+  <a href="/tags/">Tags</a>
+</nav>
+<main>
+  {{ content }}
+</main>
+<iframe id="sticky-player" src="/mixes/player.html"></iframe>
+<script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+</body>
+</html>
