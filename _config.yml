@@ -2,6 +2,8 @@ title: My DJ and Blog Site
 description: A professional site with a touch of whimsy
 markdown: kramdown
 theme: minima
-plugins: [jekyll-feed]
+plugins:
+  - jekyll-feed
 permalink: /:title/
-
+baseurl: "" 
+url: "https://sleevedace.github.io"
